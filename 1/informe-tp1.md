@@ -91,10 +91,10 @@ set_property IOSTANDARD LVCMOS33 [get_ports {i_reset sel_A sel_B sel_OP}]
 | `i_clock`       | W5                                     | LVCMOS33 | reloj 100 MHz        |
 | `in_data[0..7]` | J15, L16, M13, R15, R17, T18, U18, R13 | LVCMOS33 | SW0..SW7             |
 | `out_c[7..0]`   | H17, K15, J13, N14, R18, V17, U17, U16 | LVCMOS33 | LED7..LED0           |
-| `i_reset`       | P18                                    | LVCMOS33 | botón/switch mapeado |
-| `sel_A`         | P17                                    | LVCMOS33 | …                    |
-| `sel_B`         | M18                                    | LVCMOS33 | …                    |
-| `sel_OP`        | N17                                    | LVCMOS33 | …                    |
+| `i_reset`       | U18                                    | LVCMOS33 | botón/switch mapeado |
+| `sel_A`         | W19                                    | LVCMOS33 | …                    |
+| `sel_B`         | T18                                    | LVCMOS33 | …                    |
+| `sel_OP`        | T17                                    | LVCMOS33 | …                    |
 
 ### 4) Verificación por simulación
 ```verilog
