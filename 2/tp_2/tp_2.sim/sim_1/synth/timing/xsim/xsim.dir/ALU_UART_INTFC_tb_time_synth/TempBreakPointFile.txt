@@ -1,0 +1,3 @@
+Breakpoint File Version 1.0
+160,true,"C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v"
+136,true,"C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v"

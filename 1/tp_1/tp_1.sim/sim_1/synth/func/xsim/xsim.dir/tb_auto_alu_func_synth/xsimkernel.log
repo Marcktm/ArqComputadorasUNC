@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_auto_alu_func_synth/xsimk -simmode gui -wdb tb_auto_alu_func_synth.wdb -simrunnum 0 -socket 33391
+Design successfully loaded
+Design Loading Memory Usage: 181928 KB (Peak: 181984 KB)
+Design Loading CPU Usage: 850 ms

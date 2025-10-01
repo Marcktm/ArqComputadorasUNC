@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"tb_auto_top_alu_time_impl.v" \
+"../../../../../tp_1.srcs/sim_1/new/tb_auto_top_alu.v" \
+
+# Do not sort compile order
+nosort

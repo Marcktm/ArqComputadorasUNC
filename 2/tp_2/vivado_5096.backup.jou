@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Nov  4 15:26:20 2021
+# Process ID: 5096
+# Current directory: C:/Users/s/Desktop/tp_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8772 C:\Users\s\Desktop\tp_2\tp_2.xpr
+# Log file: C:/Users/s/Desktop/tp_2/vivado.log
+# Journal file: C:/Users/s/Desktop/tp_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/s/Desktop/tp_2/tp_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 148
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 124
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 81
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 85
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation

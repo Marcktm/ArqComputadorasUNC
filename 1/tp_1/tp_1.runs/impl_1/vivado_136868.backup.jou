@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Oct  1 11:55:44 2025
+# Process ID         : 136868
+# Current directory  : /home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.runs/impl_1
+# Command line       : vivado -log top_alu.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_alu.tcl -notrace
+# Log file           : /home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.runs/impl_1/top_alu.vdi
+# Journal file       : /home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.runs/impl_1/vivado.jou
+# Running On         : marcktm
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
+# CPU Frequency      : 1110.000 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16080 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20375 MB
+# Available Virtual  : 12373 MB
+#-----------------------------------------------------------
+source top_alu.tcl -notrace

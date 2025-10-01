@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+AND correcto ->   0 &   0 =   0 
+SRA correcto ->  65 >>> 167 =   0 
+SRA correcto ->   1 >>>  68 =   0 
+ADD correcto ->  69 + 133 = 202 
+XOR correcto ->  63 ^ 134 = 185 
+XOR correcto -> 117 ^ 204 = 185 
+ADD correcto ->  83 +  11 =  94 
+XOR correcto -> 117 ^ 128 = 245 
+ADD correcto ->  29 + 212 = 241 
+SUB correcto ->  75 -  73 =   2 
+SRA correcto ->  69 >>> 102 =   0 
+ADD correcto ->  74 + 177 = 251 
+XOR correcto -> 207 ^ 246 =  57 
+AND correcto ->  41 &  64 =   0 
+$finish called at time : 2 us : File "G:/My Drive/Facultad/Materias/Arquitectura/Practico/TPs/1/tp_1/tp_1.srcs/sim_1/new/tb_auto_top_alu.v" Line 75

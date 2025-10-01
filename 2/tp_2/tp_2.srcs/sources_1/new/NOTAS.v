@@ -1,0 +1,27 @@
+
+/*
+  PARA PODER SINTETIZAR OUT-OF-CONTEXT DOS UARTS:
+  
+  SE COMENTAN LOS PARAMETROS DE ALU_UART_INTFC Y top_UART
+  
+  Y SE AGREGA COMO LOCALPARAM LO SIGUIENTE
+  
+  */
+  
+ /*ESTO ES PARA REEMPLAZAR Y PODER SINTETIZAR DOS UARTS EN EL TESTBENCH LUEGO PONERLO COMO PARAMETROS DE NUEVO*/
+ localparam     DBIT = 8, //cantidad de bits de la trama de datos
+                SB_TICK = 16, //ticks para el stop bit
+                BaudRate = 19200,
+                CLK_MHZ = 10000000;
+ /*************************************/
+ 
+ 
+ /*
+        
+        SE TIENE QUE VERIFICAR QUE ESTOS PARAMETROS SEAN IGUALES A LO LARGO DE TODO EL PROYECTO.
+        TANTO EN ALU_UART_INTF_tb, ALU_UART_INT Y top_UART
+        COMENTAR TAMBIEN EN ESTOS ARCHIVOS LA INSTANCIACION DE PARAMETROS DE LOS MODULOS. 
+      
+         
+ */
+

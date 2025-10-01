@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../tp_2.srcs/sources_1/new/ALU.v" \
+"../../../../tp_2.srcs/sources_1/new/ALU_UART_INTFC.v" \
+"../../../../tp_2.srcs/sources_1/new/BaudRateGenerator.v" \
+"../../../../tp_2.srcs/sources_1/new/interfazUART.v" \
+"../../../../tp_2.srcs/sources_1/new/reciever.v" \
+"../../../../tp_2.srcs/sources_1/new/top_UART.v" \
+"../../../../tp_2.srcs/sources_1/new/trasmitter.v" \
+"../../../../tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
