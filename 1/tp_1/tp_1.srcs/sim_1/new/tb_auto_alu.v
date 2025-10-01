@@ -73,13 +73,13 @@ module tb_auto_alu();
         // my_alu.reg_a -> APUNTAMOS AL REGISTRO REG_A QUE ESTA DENTRO DE LA INSTANCIA DE my_alu
         
                 `ADD:  if(F == (my_alu.in_a + my_alu.in_b)) 
-                            $display("ADD correcto -> %d + %d = %d ", my_alu.in_a, my_alu.in_b, F );
+                            $display("ADD correcto -> %h + %h = %h ", my_alu.in_a, my_alu.in_b, F );
                        else 
-                            $display("ADD incorrecto -> %d + %d = %d", my_alu.in_a, my_alu.in_b, F );
+                            $display("ADD incorrecto -> %h + %h = %h", my_alu.in_a, my_alu.in_b, F );
                 `SUB:  if(F == (my_alu.in_a - my_alu.in_b))
-                            $display("SUB correcto -> %d - %d = %d ", my_alu.in_a, my_alu.in_b, F );
+                            $display("SUB correcto -> %h - %h = %h ", my_alu.in_a, my_alu.in_b, F );
                        else 
-                            $display("SUB incorrecto -> %d - %d = %d", my_alu.in_a, my_alu.in_b, F );
+                            $display("SUB incorrecto -> %h - %h = %h", my_alu.in_a, my_alu.in_b, F );
                 `AND:  if(F == (my_alu.in_a & my_alu.in_b)) 
                             $display("AND correcto -> %d & %d = %d ", my_alu.in_a, my_alu.in_b, F );
                        else 
@@ -93,9 +93,9 @@ module tb_auto_alu();
                        else 
                             $display("XOR incorrecto -> %d ^ %d = %d", my_alu.in_a, my_alu.in_b, F );
                 `SRA:  if(F == (my_alu.in_a >>> my_alu.in_b)) 
-                            $display("SRA correcto -> %d >>> %d = %d ", my_alu.in_a, my_alu.in_b, F );
+                            $display("SRA correcto -> %b >>> %b = %b ", my_alu.in_a, my_alu.in_b, F );
                        else 
-                            $display("SRA incorrecto -> %d >>> %d = %d", my_alu.in_a, my_alu.in_b, F );
+                            $display("SRA incorrecto -> %b >>> %b = %b", my_alu.in_a, my_alu.in_b, F );
                 `SRL:  if(F == (my_alu.in_a >> my_alu.in_b)) 
                             $display("SRL correcto -> %d >> %d = %d ", my_alu.in_a, my_alu.in_b, F );
                        else 

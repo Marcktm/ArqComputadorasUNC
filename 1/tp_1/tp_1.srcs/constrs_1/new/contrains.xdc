@@ -26,8 +26,8 @@ set_property PACKAGE_PIN U16 [get_ports {out_c[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {out_c[*]}]
 
 ## Control
-set_property PACKAGE_PIN P18 [get_ports i_reset]
-set_property PACKAGE_PIN P17 [get_ports sel_A]
-set_property PACKAGE_PIN M18 [get_ports sel_B]
-set_property PACKAGE_PIN N17 [get_ports sel_OP]
+set_property PACKAGE_PIN U18 [get_ports i_reset]
+set_property PACKAGE_PIN W19 [get_ports sel_A]
+set_property PACKAGE_PIN T18 [get_ports sel_B]
+set_property PACKAGE_PIN T17 [get_ports sel_OP]
 set_property IOSTANDARD LVCMOS33 [get_ports {i_reset sel_A sel_B sel_OP}]

@@ -2,3 +2,6 @@ Running: xsim.dir/tb_top_alu_func_synth/xsimk -simmode gui -wdb tb_top_alu_func_
 Design successfully loaded
 Design Loading Memory Usage: 182384 KB (Peak: 182384 KB)
 Design Loading CPU Usage: 880 ms
+Simulation completed
+Simulation Memory Usage: 264640 KB (Peak: 321652 KB)
+Simulation CPU Usage: 880 ms

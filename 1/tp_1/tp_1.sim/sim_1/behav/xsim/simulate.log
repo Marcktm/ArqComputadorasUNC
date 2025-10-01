@@ -1,8 +1,13 @@
 Time resolution is 1 ps
-SRA correcto ->  16 >>> 106 =   0 
-AND correcto ->  43 & 191 =  43 
-ADD correcto -> 126 + 207 =  77 
-SRA correcto ->  38 >>> 251 =   0 
-SUB correcto -> 200 - 121 =  79 
-XOR correcto -> 211 ^ 159 =  76 
-ADD correcto -> 158 + 103 =   5 
+ADD correcto -> db + bc = 97 
+SRL correcto -> 142 >> 240 =   0 
+SRL correcto ->  30 >> 203 =   0 
+SRA correcto -> 00011011 >>> 01011001 = 00000000 
+AND correcto -> 248 & 120 = 120 
+ADD correcto -> 92 + 93 = 25 
+XOR correcto ->  27 ^ 139 = 144 
+SRA correcto -> 01110000 >>> 00011101 = 00000000 
+SRA correcto -> 00011110 >>> 00111001 = 00000000 
+ADD correcto -> 44 + a9 = ed 
+AND correcto -> 253 & 199 = 197 
+XOR correcto ->  65 ^  11 =  74 

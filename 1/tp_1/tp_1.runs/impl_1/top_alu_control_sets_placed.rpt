@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
-| Date         : Wed Oct  1 12:23:47 2025
+| Date         : Wed Oct  1 17:38:58 2025
 | Host         : marcktm running 64-bit Ubuntu 24.04.3 LTS
 | Command      : report_control_sets -verbose -file top_alu_control_sets_placed.rpt
 | Design       : top_alu
@@ -63,7 +63,7 @@ Table of Contents
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              22 |           10 |
+| Yes          | Yes                   | No                     |              22 |            4 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -73,9 +73,9 @@ Table of Contents
 +--------------------+-------------------+-------------------+------------------+----------------+--------------+
 |    Clock Signal    |   Enable Signal   |  Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +--------------------+-------------------+-------------------+------------------+----------------+--------------+
-|  i_clock_IBUF_BUFG | reg_op[5]_i_2_n_0 | reg_op[5]_i_1_n_0 |                2 |              6 |         3.00 |
-|  i_clock_IBUF_BUFG | reg_a[7]_i_2_n_0  | reg_a[7]_i_1_n_0  |                5 |              8 |         1.60 |
-|  i_clock_IBUF_BUFG | reg_b[7]_i_2_n_0  | reg_b[7]_i_1_n_0  |                3 |              8 |         2.67 |
+|  i_clock_IBUF_BUFG | reg_op[5]_i_2_n_0 | reg_op[5]_i_1_n_0 |                1 |              6 |         6.00 |
+|  i_clock_IBUF_BUFG | reg_a[7]_i_2_n_0  | reg_a[7]_i_1_n_0  |                1 |              8 |         8.00 |
+|  i_clock_IBUF_BUFG | reg_b[7]_i_2_n_0  | reg_b[7]_i_1_n_0  |                2 |              8 |         4.00 |
 +--------------------+-------------------+-------------------+------------------+----------------+--------------+
 
 
