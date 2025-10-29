@@ -18,16 +18,16 @@ module ALU_UART_INTFC_tb;
     
     //Parametros BaudRateGenerator CLOCK 10MHz
     localparam BaudRate = 19200;
-    localparam CLK_MHZ = 10000000; //10 MHZ 
+    localparam CLK_HZ = 100_000_000; //100 MHZ 
     //DURACION DEL BIT SON 15/16 TICKS -> NUMERO_DE_TICKS * 16 * PERIODO_CLOCK NS
-    localparam DuracionBit = ( CLK_MHZ / (16 * BaudRate) ) * 16 * 100; //10MHz
+    localparam DuracionBit = ( CLK_HZ / (16 * BaudRate) ) * 16 * 100; //10MHz
     
     /*
     //Parametros BaudRateGenerator CLOCK 50MHz (CAMBIAR VALORES EN CLOCK Y DURACIONBIT)
     localparam BaudRate = 19200;
-    localparam CLK_MHZ = 50000000; //50 MHZ 
+    localparam CLK_HZ = 50000000; //50 MHZ 
     //DURACION DEL BIT SON 15/16 TICKS -> NUMERO_DE_TICKS * 16 * PERIODO_CLOCK NS
-    localparam DuracionBit = ( CLK_MHZ / (16 * BaudRate) ) * 16 * 20; //50MHz
+    localparam DuracionBit = ( CLK_HZ / (16 * BaudRate) ) * 16 * 20; //50MHz
     */
     
     localparam DuracionTransmision = DuracionBit * 10; //para ALU
@@ -51,7 +51,7 @@ module ALU_UART_INTFC_tb;
     reg [DBIT-1:0] op[2:0]; //definimos array para guardar OPERANDOS Y OPERACION
 
 	//  ALU UART INTF -> INCLUYE TODO
-     ALU_UART_INTFC #( .DBIT(DBIT), .SB_TICK(SB_TICK), .BaudRate(BaudRate), .CLK_MHZ(CLK_MHZ)) /////////////////////////////////
+     ALU_UART_INTFC #( .DBIT(DBIT), .SB_TICK(SB_TICK), .BaudRate(BaudRate), .CLK_HZ(CLK_HZ)) /////////////////////////////////
      AUI (
          .clk(clk), 
          .reset(reset), 
@@ -70,7 +70,7 @@ module ALU_UART_INTFC_tb;
      reg [DBIT-1:0] din;
     
     //INSTANCIA DE LA UART PARA MANDARLE COSAS AL MODULO Y RECIBIRLAS (ESTA UART INCLUYE TX, RX y BRG)
-    top_UART  # (.DBIT(DBIT), .SB_TICK(SB_TICK), .BaudRate(BaudRate), .CLK_MHZ(CLK_MHZ)) /////////////////////////////////
+    top_UART  # (.DBIT(DBIT), .SB_TICK(SB_TICK), .BaudRate(BaudRate), .CLK_HZ(CLK_HZ)) /////////////////////////////////
     UART (
             .clk(clk), 
             .reset(reset), 
@@ -130,7 +130,7 @@ module ALU_UART_INTFC_tb;
             else   //creo opreadores   
                 din = $urandom;
                 
-            op[contador]=din; //guardamos operando para coprobar EN EL OTRO BLOQUE ALWAYS
+            op[contador]=din; //guardamos operando para comprobar EN EL OTRO BLOQUE ALWAYS
 
             
             tx_start = 1;  //empezamos a transmitir "din" por TX
@@ -201,11 +201,11 @@ module ALU_UART_INTFC_tb;
     always begin
         // #1 es un ns       
                 
-        //CLK_MHZ = 10000000 (10MHz); -> CLK_PERIOD = 1/CLK_MHZ = 100ns  = 100ns/2=50ns PARA SIMULACION 
-        #50 clk = ~clk; //10 MHz
+        //CLK_HZ = 100_000_000 (10MHz); -> CLK_PERIOD = 1/CLK_HZ = 10ns  = 10ns/2=5ns PARA SIMULACION 
+        #5 clk = ~clk; //100 MHz
         
         /*
-        //CLK_MHZ = 50000000 (50MHz); -> CLK_PERIOD = 1/CLK_MHZ = 20 ns  = 20ns/2=10ns PARA SIMULACION   
+        //CLK_HZ = 50000000 (50MHz); -> CLK_PERIOD = 1/CLK_HZ = 20 ns  = 20ns/2=10ns PARA SIMULACION   
              #10 clk = ~clk; //50 MHz
         */
     end

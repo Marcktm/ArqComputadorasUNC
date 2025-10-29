@@ -1,7 +1,0 @@
-Running: xsim.dir/ALU_UART_INTFC_tb_behav/xsimk.exe -simmode gui -wdb ALU_UART_INTFC_tb_behav.wdb -simrunnum 0 -socket 49817
-Design successfully loaded
-Design Loading Memory Usage: 5648 KB (Peak: 5648 KB)
-Design Loading CPU Usage: 77 ms
-Simulation completed
-Simulation Memory Usage: 14300 KB (Peak: 14300 KB)
-Simulation CPU Usage: 2531 ms

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../tp_2.srcs/sources_1/new/BaudRateGenerator.v" \
+"../../../../../tp_2.srcs/sources_1/new/reciever.v" \
+"../../../../../tp_2.srcs/sources_1/new/top_UART.v" \
+"../../../../../tp_2.srcs/sources_1/new/trasmitter.v" \
+"../../../../../tp_2.srcs/sim_1/new/UART_INTF_tb.v" \
+
+# Do not sort compile order
+nosort

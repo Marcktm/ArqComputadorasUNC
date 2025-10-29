@@ -24,7 +24,7 @@ module reciever
 					parity =   3'b011,  //estado de recepcion bit paridad
 					stop   =   3'b100;	//estado de finalizacion
 					
-				//declaracion de señales
+				//declaracion de seï¿½ales
 				reg [2:0] state_reg, state_next; //son 3 bits, 6 estados
 				reg [3:0] s_reg, s_next; //s cuenta hasta 7 en el estado start, hasta 15 en el de datos y hasta SB_TICK en el final
 				reg [2:0] n_reg, n_next; //n lleva la cuenta del numero de bits recibidos cuenta de 0 a DBIT (3 bits 7-> b'111) 
@@ -64,7 +64,7 @@ module reciever
 				always @* //Combinacinal logica de cambio de estados (QUE ES EL PRIMER BLOQUE?)
 				begin 
 					state_next = state_reg;
-					rx_done_tick = 1'b0;
+					rx_done_tick = 1'b0; //DUDA PORQUE ESTA PARADO UN CICLO DE CLOCK?
 					s_next = s_reg;
 					n_next = n_reg;
 					b_next = b_reg;

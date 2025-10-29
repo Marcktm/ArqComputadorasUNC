@@ -4,8 +4,8 @@ module top_UART
 	 #(	
 		parameter    DBIT = 8, //cantidad de bits de la trama de datos
 					 SB_TICK = 16, //ticks para el stop bit
-					 BaudRate = 19200,
-                     CLK_MHZ = 10000000
+					 BaudRate = 9600,
+                     CLK_HZ = 100_000_000 //100 MHZ 
 	 )
 	 ( 					
 			input  wire clk, 
@@ -24,14 +24,14 @@ module top_UART
     /*localparam     DBIT = 8, //cantidad de bits de la trama de datos
                    SB_TICK = 16, //ticks para el stop bit
                    BaudRate = 19200,
-                   CLK_MHZ = 10000000;*/
+                   CLK_HZ = 10000000;*/
 	/*************************************/
 		 
 	wire s_tick; // wire que conecta los pulsos del BauRateGenerator con el TX y RX
 
 
                 //INSTANCIA BRG
-				BaudRateGenerator #(.BaudRate(BaudRate),.CLK_MHZ(CLK_MHZ)) 
+				BaudRateGenerator #(.BaudRate(BaudRate),.CLK_HZ(CLK_HZ)) 
 				BRG (  
 				            .clk(clk), 
 				            .s_tick_out(s_tick), 

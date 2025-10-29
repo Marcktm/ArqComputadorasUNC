@@ -10,14 +10,15 @@ module BaudRateGenerator_tb();
     wire s_tick_out;
 
     //Parametros BaudRateGenerator
-    parameter BaudRate = 19200;
-    parameter CLK_MHZ = 10000000; //10 MHZ 
+    parameter BaudRate = 9600; //115200
+    parameter CLK_HZ = 100_000_000; //10 MHZ O 100 MHZ revisar bloque always abajo
 
  
-   BaudRateGenerator 
+   //BaudRateGenerator_v1
+   BaudRateGenerator
        #( 
             .BaudRate(BaudRate), 
-            .CLK_MHZ(CLK_MHZ)         
+            .CLK_HZ(CLK_HZ)         
         )
    BRG
         ( 
@@ -28,12 +29,27 @@ module BaudRateGenerator_tb();
         
         
         initial begin
+            
+           
             clk = 0;
+      
+            reset = 1;
+            #500 //tiene que ser mas grande que el periodo
+            reset = 0; 
+            
+
         end
         
-        always begin //CLK_MHZ = 10000000; -> CLK_PERIOD = 1/CLK_MHZ = 100ns  = 100ns/2=50ns PARA SIMULACION    
+        /*
+        always begin //CLK_HZ = 100_000_000; -> CLK_PERIOD = 1/CLK_HZ = 100ns  = 100ns/2=50ns PARA SIMULACION    
             #50 clk = ~clk;
         end 
+        */
+        
+        always begin //CLK_HZ = 100_000_000 (10MHz); -> CLK_PERIOD = 1/CLK_HZ = 10ns  = 10ns/2=5ns PARA SIMULACION 
+            #5 clk = ~clk; //100 MHz
+        end
+        
     
 
 

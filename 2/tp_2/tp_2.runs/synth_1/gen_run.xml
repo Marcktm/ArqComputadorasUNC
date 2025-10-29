@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1637874032">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1761686793">
   <File Type="PA-TCL" Name="ALU_UART_INTFC.tcl"/>
   <File Type="REPORTS-TCL" Name="ALU_UART_INTFC_reports.tcl"/>
   <File Type="RDS-RDS" Name="ALU_UART_INTFC.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="ALU_UART_INTFC_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="ALU_UART_INTFC_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ALU_UART_INTFC_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ALU_UART_INTFC.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ALU_UART_INTFC_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ALU_UART_INTFC_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/ALU.v">
@@ -57,6 +60,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/BaudRateGenerator_v1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/NOTAS.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
@@ -65,18 +76,30 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/interfazUART/new/interfazUART_ooc.xdc">
+    <File Path="$PSRCDIR/sources_1/imports/tp_2.srcs/interfazUART/new/interfazUART_ooc.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/interfazUART/new/interfazUART_ooc.xdc"/>
+        <Attr Name="ImportTime" Val="1638483355"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="out_of_context"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/top_UART/new/top_UART_ooc.xdc">
+    <File Path="$PSRCDIR/sources_1/imports/tp_2.srcs/top_UART/new/top_UART_ooc.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/top_UART/new/top_UART_ooc.xdc"/>
+        <Attr Name="ImportTime" Val="1638483356"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="out_of_context"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Notas_BaudRate.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
@@ -85,7 +108,7 @@
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/new/UART_pins.xdc">
       <FileInfo>
@@ -94,10 +117,11 @@
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/UART_pins.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
-  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>

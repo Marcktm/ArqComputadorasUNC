@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 
-`define ADD 8'b100000
-`define SUB 8'b100010 
-`define AND 8'b100100
-`define OR  8'b100101
-`define XOR 8'b100110
-`define NOR 8'b100111
-`define SRA 8'b000011
-`define SRL 8'b000010
+`define ADD 8'b10_0000 //32
+`define SUB 8'b10_0010 //34
+`define AND 8'b10_0100 //36
+`define OR  8'b10_0101 //37
+`define XOR 8'b10_0110 //38
+`define NOR 8'b10_0111 //39
+`define SRA 8'b00_0011 //3
+`define SRL 8'b00_0010 //2
 
 module ALU  
 #(parameter DBIT=8 )

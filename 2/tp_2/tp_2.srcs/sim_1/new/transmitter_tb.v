@@ -9,17 +9,17 @@ module transmitter_tb();
     
     //Parametros BaudRateGenerator CLOCK 10MHz
     localparam BaudRate = 19200;
-    localparam CLK_MHZ = 10000000; //10 MHZ 
+    localparam CLK_HZ = 10000000; //10 MHZ 
     
     /*
     //Parametros BaudRateGenerator CLOCK 50MHz (CAMBIAR VALORES EN CLOCK Y DURACIONBIT)
     localparam BaudRate = 19200;
-    localparam CLK_MHZ = 50000000; //50 MHZ 
+    localparam CLK_HZ = 50000000; //50 MHZ 
     */
     
     //DURACION DEL BIT SON 15/16 TICKS -> NUMERO_DE_TICKS * 16 * PERIODO_CLOCK NS
-    localparam DuracionBit = ( CLK_MHZ / (16 * BaudRate) ) * 16 * 100; //10MHz
-    //localparam DuracionBit = ( CLK_MHZ / (16 * BaudRate) ) * 16 * 20; //50MHz
+    localparam DuracionBit = ( CLK_HZ / (16 * BaudRate) ) * 16 * 100; //10MHz
+    //localparam DuracionBit = ( CLK_HZ / (16 * BaudRate) ) * 16 * 20; //50MHz
     
     localparam mitad_DuracionBit = DuracionBit / 2;
       
@@ -42,7 +42,7 @@ module transmitter_tb();
   
     
    //INSTANCIA BRG
-   BaudRateGenerator #(.BaudRate(BaudRate),.CLK_MHZ(CLK_MHZ))
+   BaudRateGenerator #(.BaudRate(BaudRate),.CLK_HZ(CLK_HZ))
    BRG
         ( 
            .clk(clk), 
@@ -114,8 +114,8 @@ module transmitter_tb();
                   
     always begin
     // #1 es un ns               
-    //CLK_MHZ = 10000000 (10MHz); -> CLK_PERIOD = 1/CLK_MHZ = 100ns  = 100ns/2=50ns PARA SIMULACION 
-    //CLK_MHZ = 50000000 (50MHz); -> CLK_PERIOD = 1/CLK_MHZ = 20 ns  = 20ns/2=10ns PARA SIMULACION   
+    //CLK_HZ = 10000000 (10MHz); -> CLK_PERIOD = 1/CLK_HZ = 100ns  = 100ns/2=50ns PARA SIMULACION 
+    //CLK_HZ = 50000000 (50MHz); -> CLK_PERIOD = 1/CLK_HZ = 20 ns  = 20ns/2=10ns PARA SIMULACION   
         #50 clk = ~clk; //10 MHz
         // #10 clk = ~clk; //50 MHz
     end

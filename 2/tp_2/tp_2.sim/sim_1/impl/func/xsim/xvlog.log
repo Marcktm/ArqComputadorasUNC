@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_UART_INTFC
+INFO: [VRFC 10-311] analyzing module BaudRateGenerator
+INFO: [VRFC 10-311] analyzing module reciever
+INFO: [VRFC 10-311] analyzing module top_UART
+INFO: [VRFC 10-311] analyzing module transmitter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/BaudRateGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BaudRateGenerator
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'BaudRateGenerator' [C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/BaudRateGenerator.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reciever
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'reciever' [C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/top_UART.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_UART
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'top_UART' [C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/top_UART.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'transmitter' [C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sim_1/new/UART_INTF_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_INTF_tb
