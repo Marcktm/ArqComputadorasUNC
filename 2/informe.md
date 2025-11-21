@@ -2,21 +2,25 @@
 ## Arquitectura de Computadoras 2025
 ### TP2 - UART
 
-* Alumnos:
+Alumnos:
 
-    Sleiman, Mohamad
-    
-    Reyeros, Marcos
+   - Sleiman, Mohamad
+   - Reyeros, Marcos
 
 ## Objetivo
 Comprender el funcionamiento del protocolo **UART (Universal Asynchronous Receiver and Transmitter)** y analizar la **transmisión y recepción de datos asíncrona** entre dispositivos digitales.
 
 ---
+## Comunicacion Asincrona 
 
-## Consigna
+La comunicación asíncrona es un método de transmisión en el que emisor y receptor no comparten una señal de reloj común. En vez de mantenerse sincronizados de forma permanente, cada trama incorpora su propia información de sincronización, lo que permite que ambos dispositivos intercambien datos sin necesitar una coordinación temporal continua. Por ejemplo, UART y RS-232.
 
-1. **Describir** brevemente qué es una comunicación **asíncrona** y en qué se diferencia de una comunicación **síncrona**.  
-   > Pueden incluir ejemplos o diagramas comparativos.
+A diferencia de la comunicación asíncrona, la **comunicacion síncrona** usa un reloj compartido para mantener emisor y receptor sincronizados durante toda la transmisión. Por ejemplo, SPI, I2C y USB.
+
+![Comparación entre comunicación síncrona y asíncrona](diagramas/sincrona vs asincrona.jpg)
+
+
+## Comunicacion UART
 
 2. **Analizar la trama UART** indicando la función de cada uno de sus campos:  
    - Bit de **Start**  
