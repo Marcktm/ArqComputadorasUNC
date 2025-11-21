@@ -1,0 +1,1044 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Nov  4 17:15:32 2021
+# Process ID: 6552
+# Current directory: C:/Users/s/Desktop/tp_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10212 C:\Users\s\Desktop\tp_2\tp_2.xpr
+# Log file: C:/Users/s/Desktop/tp_2/vivado.log
+# Journal file: C:/Users/s/Desktop/tp_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/s/Desktop/tp_2/tp_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 69
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 70
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 73
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 74
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 79
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 58
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+close_sim
+file delete -force xsim.ini
+launch_simulation
+set_property INCREMENTAL false [get_filesets sim_1]
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 148
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 75
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 74
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 79
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 82
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 83
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+restart
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 58
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 59
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 62
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 63
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 62
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 63
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 58
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 59
+run all
+run all
+restart
+run all
+run all
+restart
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 124
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+restart
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+restart
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 70
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 139
+run all
+step
+run all
+run all
+restart
+run all
+run all
+run all
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 64
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 59
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 60
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 74
+restart
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 68
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 148
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 141
+run all
+run all
+run all
+run all
+close_sim
+launch_simulation
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 69
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 59
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 60
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 59
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 59
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 64
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 79
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 83
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 88
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 87
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 88
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 69
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 69
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 69
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 63
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 64
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 68
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 69
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 68
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+step
+step
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 59
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 59
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 60
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 59
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 63
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 69
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 63
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 79
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 83
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 87
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 84
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 85
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 80
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 76
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 69
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 142
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 142
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 148
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 148
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 75
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 76
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 79
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 80
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 83
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 85
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+restart
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 148
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 157
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 148
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 157
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 153
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 162
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 86
+restart
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 131
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 136
+restart
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 100
+run all
+restart
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 112
+restart
+run all
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 98
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 98
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 97
+restart
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 97
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 98
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 86
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 98
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 100
+restart
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 97
+restart
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 83
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 86
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} -line 83
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 94
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} -line 94
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 96
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} -line 97
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 95
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} -line 95
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} 95
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 143
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 136
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 131
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} -line 95
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/trasmitter.v} -line 86
+run all
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 132
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 132
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 143
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 152
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BaudRateGenerator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top reciever [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top transmitter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU_UART_INTFC [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 90
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 97
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 96
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 96
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+run all
+step
+run all
+step
+run all
+step
+run all
+step
+run all
+step
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 61
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 65
+restart
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 61
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 65
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 73
+run all
+run all
+restart
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 62
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 66
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 75
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 66
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 62
+run all
+run all
+step
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 75
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 78
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 73
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 73
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 77
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 151
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 151
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 84
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 90
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 96
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 73
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 124
+restart
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 73
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 67
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 67
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 67
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 67
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 68
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 67
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 68
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 66
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 67
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} -line 66
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/reciever.v} 67
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 65
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top interfazUART [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 152
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+restart
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 71
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 77
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 83
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 88
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 92
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 92
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 60
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 59
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 71
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 77
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 78
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 83
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 88
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 60
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 60
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 151
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} -line 151
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 152
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 70
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 76
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 83
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 82
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 83
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 82
+run all
+run all
+run all
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 70
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 76
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 64
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 64
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 88
+close_sim
+launch_simulation
+source ALU_UART_INTFC_tb.tcl
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 89
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 88
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 89
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 94
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 100
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 63
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 67
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 71
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 71
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 71
+run all
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 66
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 67
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 66
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 62
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 63
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 62
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} 70
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 71
+remove_bps -file {C:/Users/s/Desktop/tp_2/tp_2.srcs/sources_1/new/interfazUART.v} -line 70
+run all
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+add_bp {C:/Users/s/Desktop/tp_2/tp_2.srcs/sim_1/new/ALU_UART_INTFC_tb.v} 143
+restart
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim

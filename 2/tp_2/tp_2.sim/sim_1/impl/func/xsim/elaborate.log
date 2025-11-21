@@ -1,0 +1,19 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot UART_INTF_tb_func_impl xil_defaultlib.UART_INTF_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'ALU_UART_INTFC' does not have a parameter named DBIT [C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sim_1/new/UART_INTF_tb.v:38]
+ERROR: [VRFC 10-3180] cannot find port 'tx_start_reg' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:64]
+ERROR: [VRFC 10-3180] cannot find port 'tx_OBUF' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:63]
+ERROR: [VRFC 10-3180] cannot find port 'rx_IBUF' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:62]
+ERROR: [VRFC 10-3180] cannot find port 'SR' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:61]
+ERROR: [VRFC 10-3180] cannot find port 'Q' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:60]
+ERROR: [VRFC 10-3180] cannot find port '\FSM_sequential_state_reg_reg[2] ' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:59]
+ERROR: [VRFC 10-3180] cannot find port 'E' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:58]
+ERROR: [VRFC 10-3180] cannot find port 'CLK' on this module [C:/Users/hamu7/Desktop/tp_2/tp_2.sim/sim_1/impl/func/xsim/UART_INTF_tb_func_impl.v:57]
+ERROR: [VRFC 10-8530] module 'FDRE_default' is ignored due to previous errors [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/FDRE.v:27]
+ERROR: [VRFC 10-8530] module 'BaudRateGenerator_default' is ignored due to previous errors [C:/Users/hamu7/Desktop/tp_2/tp_2.srcs/sources_1/new/BaudRateGenerator.v:3]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

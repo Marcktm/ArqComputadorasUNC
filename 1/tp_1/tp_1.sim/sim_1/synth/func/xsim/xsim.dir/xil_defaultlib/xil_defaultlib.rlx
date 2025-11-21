@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.sim/sim_1/synth/func/xsim/tb_auto_alu_func_synth.v,1759336655,verilog,,/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sources_1/new/alu.v,,glbl;top_alu,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sim_1/new/tb_auto_alu.v,1633095148,verilog,,,,tb_auto_alu,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sim_1/new/tb_auto_top_alu.v,1633628516,verilog,,,,tb_auto_top_alu,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sim_1/new/tb_top_alu.v,1632438730,verilog,,,,tb_top_alu,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,
+/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sources_1/new/alu.v,1757524008,verilog,,/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sim_1/new/tb_auto_alu.v,,alu,,,../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef,,,,,

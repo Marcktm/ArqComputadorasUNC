@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+ADD correcto -> 219 + 188 = 151 
+SRL correcto -> 142 >> 240 =   0 
+SRL correcto ->  30 >> 203 =   0 
+SRA correcto ->  27 >>>  89 =   0 
+AND correcto -> 248 & 120 = 120 
+ADD correcto -> 146 + 147 =  37 
+XOR correcto ->  27 ^ 139 = 144 
+SRA correcto -> 112 >>>  29 =   0 
+SRA correcto ->  30 >>>  57 =   0 
+ADD correcto ->  68 + 169 = 237 
+AND correcto -> 253 & 199 = 197 
+XOR correcto ->  65 ^  11 =  74 

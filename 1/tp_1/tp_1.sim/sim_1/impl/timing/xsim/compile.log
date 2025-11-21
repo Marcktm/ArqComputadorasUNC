@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.sim/sim_1/impl/timing/xsim/tb_auto_top_alu_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module top_alu
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/marcktm/ArqComputadorasUNC/1/tp_1/tp_1.srcs/sim_1/new/tb_auto_top_alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_auto_top_alu
